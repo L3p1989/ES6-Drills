@@ -25,3 +25,4 @@ function whoIAm(name, location, favFood) {
     console.log(...values)
 };
 
+let myName = 'Patrick'
