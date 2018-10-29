@@ -9,4 +9,6 @@ favMovie();
 let getFirstName = (fullName) => {
     let fName = fullName.split(' ');
     console.log(fName[0])
-}
+};
+
+let fName = (fullName) => console.log(fullName.split(' ')[0]);
