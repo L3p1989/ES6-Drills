@@ -5,3 +5,8 @@ favMovie("world");
 
 favMovie("The Golden Compass", "Patrick");
 favMovie();
+
+let getFirstName = (fullName) => {
+    let fName = fullName.split(' ');
+    console.log(fName[0])
+}
