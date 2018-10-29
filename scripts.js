@@ -6,3 +6,4 @@ function favMovie(movie) {
 };
 
 favMovie();
+favMovie("world");
