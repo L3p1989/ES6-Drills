@@ -26,3 +26,10 @@ function whoIAm(name, location, favFood) {
 };
 
 let myName = 'Patrick'
+
+function spellIt(name) {
+    let spellMyName = [...name]
+    for (i = 0; i < spellMyName.length; i++) {
+        console.log(spellMyName[i])
+    }
+};
