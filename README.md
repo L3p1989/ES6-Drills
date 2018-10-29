@@ -28,7 +28,7 @@ console.log(`my name is ${name} and my favorite movie is ${movie}`);
 4. Use the shorthand "concise body" syntax for this arrow function so that the console.log statement is on the same line as the arrow.
 5. Create a new arrow function called `getFirstName`.
 6. Create a second arrow function using the concise body syntax. Both function will serve the same purpose.
-7. Each function will accept a string that will be someone’s full name (first and last separated by a space). [(hint)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
+7. Each function will accept a string that will be someone’s full name (first and last separated by a space). ([hint](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split))
 8. When the full name is passed to the function, the function should return the first name.
 9. Create a new function that will take in two parameters and return an object literal. It should have two properties, the exponent result (x^y) and the product of the two numbers.
 10. Log each property using a template literal.
