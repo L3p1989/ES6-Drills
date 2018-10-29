@@ -18,3 +18,10 @@ let numVal = (x, y) => ({exponent: x^y, addSum: x + y});
 console.log(`the exponent of 4 and 9 is ${numVal(4, 9).exponent}`)
 
 console.log(`the sum of 4 and 9 is ${numVal(4, 9).addSum}`)
+
+let values = ['Patrick', 'Denver', 'Spicy']
+
+function whoIAm(name, location, favFood) {
+    console.log(...values)
+};
+
